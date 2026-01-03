@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Remover extensão .php das URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# Redirecionar / para dashboard
+RewriteRule ^$ index.php [L]

@@ -1,0 +1,31 @@
+-- Seed: 27 Livros do Novo Testamento (ordem ACF/KJV)
+-- Total: 260 capítulos
+
+INSERT OR IGNORE INTO livros (nome, sigla, capitulos, ordem) VALUES
+('Mateus', 'Mt', 28, 1),
+('Marcos', 'Mc', 16, 2),
+('Lucas', 'Lc', 24, 3),
+('João', 'Jo', 21, 4),
+('Atos', 'At', 28, 5),
+('Romanos', 'Rm', 16, 6),
+('1 Coríntios', '1Co', 16, 7),
+('2 Coríntios', '2Co', 13, 8),
+('Gálatas', 'Gl', 6, 9),
+('Efésios', 'Ef', 6, 10),
+('Filipenses', 'Fp', 4, 11),
+('Colossenses', 'Cl', 4, 12),
+('1 Tessalonicenses', '1Ts', 5, 13),
+('2 Tessalonicenses', '2Ts', 3, 14),
+('1 Timóteo', '1Tm', 6, 15),
+('2 Timóteo', '2Tm', 4, 16),
+('Tito', 'Tt', 3, 17),
+('Filemom', 'Fm', 1, 18),
+('Hebreus', 'Hb', 13, 19),
+('Tiago', 'Tg', 5, 20),
+('1 Pedro', '1Pe', 5, 21),
+('2 Pedro', '2Pe', 3, 22),
+('1 João', '1Jo', 5, 23),
+('2 João', '2Jo', 1, 24),
+('3 João', '3Jo', 1, 25),
+('Judas', 'Jd', 1, 26),
+('Apocalipse', 'Ap', 22, 27);
